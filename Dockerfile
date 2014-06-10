@@ -4,6 +4,7 @@ MAINTAINER David Medinets <david.medinets@gmail.com>
 # Source: https://www.digitalocean.com/community/articles/how-to-install-java-on-ubuntu-with-apt-get
 
 # Get add-apt-repositoy command.
+RUN apt-get update
 RUN apt-get install -y software-properties-common
 
 # Add Oracle Java repository.
