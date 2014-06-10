@@ -2,7 +2,7 @@
 # Build the image
 
 ```
-docker build --rm=true -t medined/java-oracle8 .
+docker build --rm=true -t $USER/java-oracle8 .
 ```
 
 # See the image
@@ -14,7 +14,7 @@ docker images
 # Run the image
 
 ```
-docker run -i -t medined/java-oracle8 /bin/bash
+docker run -i -t $USER/java-oracle8 /bin/bash
 ```
 
 # Validate Java version inside image
