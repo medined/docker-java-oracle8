@@ -2,7 +2,7 @@
 # Build the image
 
 ```
-docker build -t medined/java-oracle8 .
+docker build --rm=true -t medined/java-oracle8 .
 ```
 
 # See the image
